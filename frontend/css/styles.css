@@ -281,11 +281,13 @@ button:hover {
     margin-top: 0;
     margin-bottom: 0.2rem;
     color: #1664b9;
+    max-width: calc(100% - 5rem);
 }
 
 .todo-card p {
     margin: 0.5rem 0;
     color: #4a4a4a;
+    max-width: calc(100% - 5rem);
 }
 
 .checkbox-container {

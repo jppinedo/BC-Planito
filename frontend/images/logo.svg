@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <!-- Background (optional) -->
+  <!-- <rect width="300" height="80" fill="#fff"/> -->
+
+  <!-- Icon: A rounded square with three checklist lines -->
+  <rect x="10" y="10" width="60" height="60" rx="10" fill="#4CAF50"/>
+  <!-- Checklist lines -->
+  <line x1="20" y1="25" x2="50" y2="25" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="20" y1="40" x2="50" y2="40" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="20" y1="55" x2="50" y2="55" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Text: "Planito" -->
+  <text x="80" y="50" font-family="Arial, sans-serif" font-size="32" fill="#333" dominant-baseline="middle">
+    Planito
+  </text>
+</svg>

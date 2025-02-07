@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="brand">
+                    <img class="logo" src="./images/planito.svg" />
+                </div>
+                <div class="user-info">
+                    <span id="username">Username</span>
+                    <div class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href="#" class="disabled">Profile</a>
+                        <a href="#" class="disabled">Settings</a>
+                        <a href="#" id="logout"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="container loading static">
+            <div class="spinner"></div>
+            <div id="create-todo">
+                <button type="button" id="create-todo-btn">Create todo</button>
+                <form id="new-todo">
+                    <div class="input-group">
+                        <label for="todoTitle">Title</label>
+                        <input type="text" id="todoTitle" name="todoTitle" required placeholder="Write a title for your todo" autocomplete="false" autofill="false">
+                        <span class="error" id="todoTitleError"></span>
+                    </div>
+                    <div class="input-group">
+                        <label for="todoDescription">Description</label>
+                        <textarea id="todoDescription" placeholder="Write your todo here..."></textarea>
+                        <span class="error" id="todoDescriptionError"></span>
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+            <div id="todo-list" class="active"><!-- todos here --></div>
+        </div>
+        <div class="overlay" id="modalOverlay">
+            <div class="modal-container">
+                <div class="modal-content"><!-- modal content --></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>

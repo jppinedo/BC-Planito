@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <!-- Define a soft gradient for the icon -->
+  <defs>
+    <linearGradient id="softGradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#A8DADC"/>
+      <stop offset="100%" stop-color="#457B9D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: A soothing circle with a check mark -->
+  <circle cx="40" cy="40" r="30" fill="url(#softGradient)" />
+  <polyline points="28,40 36,48 52,32" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Text: "Planito" -->
+  <text x="80" y="50" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#333" dominant-baseline="middle">
+    Planito
+  </text>
+</svg>

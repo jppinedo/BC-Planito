@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="wrapper centered-container">
+        <div class="brand">
+            <img class="logo" src="./images/planito_dark.svg" />
+        </div>
+        <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="loginUsername">Username</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required>
+                    <span class="error" id="loginUsernameError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                    <span class="error" id="loginPasswordError"></span>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account yet? <a href="./register">Register</a></p>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

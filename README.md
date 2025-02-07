@@ -1,10 +1,23 @@
-# Planito Application
+# Planito "To-do" Application
+
+## Installation
+
+To install the backend libraries go to /backend and type the following command in the terminal 
+`npm install`.
+Run the server by typing `node backend.js`
+
+## Run the application
+
+Once you started the backend with node, the application should be running in http://localhost:3000.
+Navigate to http://localhost:3000/login to start using the app.
 
 ## Registration Page
 
 The registration page of the Planito application is designed to allow new users to create an account. The page is simple and user-friendly, ensuring a smooth registration process. Below is a detailed description of the registration page:
 
 ![Registration Page](assets/register.jpg)
+
+http://localhost:3000/register
 
 ### Description
 
@@ -16,6 +29,8 @@ The login page of the Planito application allows existing users to sign in to th
 
 ![Login Page](assets/login.jpg)
 
+http://localhost:3000/login
+
 ### Description
 
 This login page is essential for existing users to access their accounts on the Planito application. It ensures that users provide their username and password to authenticate themselves. The design is clean and intuitive, making it easy for users to log in. The inclusion of a register link at the bottom provides a convenient way for new users to navigate to the registration.
@@ -25,6 +40,8 @@ This login page is essential for existing users to access their accounts on the 
 The home page of the Planito application is accessible only to logged-in users. This view allows users to create, complete, modify, and delete todos. Below is a detailed description of the home page:
 
 ![Home Page](assets/home.jpg)
+
+http://localhost:3000/home
 
 ### Description
 
